@@ -1,6 +1,5 @@
-# Intently Client
-
-An opinionated minimalistic aproach to productivity
+# LDK Creatives Client
+Landing site for LDK Creatives
 
 ## Getting Started
 
