@@ -16,7 +16,7 @@ To build for deployment simply run: `npm run prod`
 ## Built With
 
 - [NPM](https://www.npmjs.com) - Dependency Management
-- [Parcel](https://parceljs.org) - Build Tool
+- [Parcel](https://parceljs.org) - Build gTool
 - [Pug](https://pugjs.org) - Markup Preprocessor
 - [React](https://reactjs.org/) - JS Framework
 - [StyledComponents](https://www.styled-components.com) - CSSinJS Preprocessor

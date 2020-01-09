@@ -22,6 +22,9 @@ ${modernNormalize}
         color: ${props => props.theme.colors.grayscale.black};
         -webkit-font-smoothing: antialiased;
         -webkit-text-size-adjust: 100%;
+        margin-top: 0px;
+        word-break: break-word;
+        max-width: 600px;
     }
 
     h1 {
@@ -66,6 +69,15 @@ ${modernNormalize}
         margin-bottom:${props => props.theme.baseSize};
         font-weight: 400;
     }
+    a {
+        font-family: ${props => props.theme.fonts.primary};
+        font-weight: 400;
+        text-decoration: none;
+        transition: text-decoration 300ms ease;
+        text-decoration: underline solid transparent;
+
+    }
+
     small, .caption {
         font-family: ${props => props.theme.fonts.primary};
         font-size: 12px;

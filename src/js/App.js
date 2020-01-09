@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import LandingPage from './components/layouts/LandingPage'
-import NotFound from './components/layouts/NotFound'
+import Home from './components/e_pages/Home'
+import FourOhFour from './components/e_pages/FourOhFour'
 
 function App() {
     return (
@@ -9,8 +9,8 @@ function App() {
             <Router>
 
                 <Switch>
-                    <Route path="/" exact component={LandingPage} />
-                    <Route component={NotFound} />
+                    <Route path="/" exact component={Home} />
+                    <Route component={FourOhFour} />
                 </Switch>
             </Router>
         </>
