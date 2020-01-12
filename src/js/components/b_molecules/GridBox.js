@@ -4,12 +4,12 @@ import LogoSymbol from '../a_atoms/LogoSymbol'
 
 const Container = styled.section`
     min-height: 320px;
-    padding: ${props => props.theme.baseSize*1.5};
+    padding: ${props => props.theme.baseSize*2};
     ${props => props.color === "red" && css`
         background: ${props => props.theme.colors.brand.red};
     `}
     ${props => props.color === "grey" && css`
-        background: ${props => props.theme.colors.grayscale.grey};
+        background: ${props => props.theme.colors.grayscale.gray};
     `}
     ${props => props.color === "white" && css`
         background: ${props => props.theme.colors.grayscale.white};

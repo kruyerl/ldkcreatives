@@ -8,7 +8,7 @@ export const theme = {
         grayscale: {
             white: '#F7f6f4',
             black: '#292A3A',
-            grey: '#D7DFE2',
+            gray: '#D7DFE2',
         },
         denotive: {
             success: '#88F072',
@@ -16,15 +16,15 @@ export const theme = {
             disabled: '#AEAEAE',
         },
     },
-    baseSize: '16',
+    baseSize: '20',
     screens: {
         mobile: '550px',
         tablet: '768px',
         desktop: '1024px',
     },
     fonts: {
-        primary: `'Space Mono', monospace`,
-        secondary: `'Space Mono', monospace`,
+        primary: `font-family: 'Work Sans', sans-serif`,
+        secondary: `font-family: 'Work Sans', sans-serif`,
     },
     shadows: {
         z1: `box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)`,

@@ -11,9 +11,7 @@ const Logo = () => {
 
     return (
         <a href="/">
-            <Obj data={LogoVector} type="image/svg+xml">
-                <img src={LogoVector} />
-            </Obj>
+            <img src={LogoVector} />
         </a>
     )
 

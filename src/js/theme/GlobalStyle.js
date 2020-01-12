@@ -4,8 +4,7 @@ import { rgba } from 'polished'
 
 export const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap');
 /* ###
     Normalize
 ### */
@@ -30,37 +29,37 @@ ${modernNormalize}
     h1 {
         font-family: ${props => props.theme.fonts.primary};
         font-size: 48px;
-        line-height: 1.4;
+        line-height: 1.5;
         margin-bottom:${props => props.theme.baseSize};
-        font-weight: 700;
+        font-weight: 900;
     }
     h2 {
         font-family: ${props => props.theme.fonts.primary};
         font-size: 32px;
-        line-height: 1.4;
+        line-height: 1.5;
         margin-bottom:${props => props.theme.baseSize};
-        font-weight: 400;
+        font-weight: 700;
     }
     h3 {
         font-family: ${props => props.theme.fonts.primary};
         font-size: 28px;
-        line-height: 1.4;
+        line-height: 1.5;
         margin-bottom:${props => props.theme.baseSize};
-        font-weight: 700;
+        font-weight: 900;
     }
     h4 {
         font-family: ${props => props.theme.fonts.primary};
-        font-size: 20px;
-        line-height: 1.4;
+        font-size: 22px;
+        line-height: 1.5;
         margin-bottom:${props => props.theme.baseSize};
-        font-weight: 400;
+        font-weight: 700;
     }
     h5 {
         font-family: ${props => props.theme.fonts.primary};
         font-size: 20px;
-        line-height: 1.4;
+        line-height: 1.5;
         margin-bottom:${props => props.theme.baseSize};
-        font-weight: 700;
+        font-weight: 900;
     }
     Body, p {
         font-family: ${props => props.theme.fonts.primary};
@@ -80,7 +79,7 @@ ${modernNormalize}
 
     small, .caption {
         font-family: ${props => props.theme.fonts.primary};
-        font-size: 12px;
+        font-size: 16px;
         line-height: 1.4;
         margin-bottom:${props => props.theme.baseSize};
         font-weight: 400;

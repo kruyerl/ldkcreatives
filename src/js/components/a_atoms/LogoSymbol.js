@@ -7,10 +7,10 @@ const Obj = styled.object`
     pointer-events: none;
     max-width:100%;
 `
-const LogoSymbol = () => {
+const LogoSymbol = ({className}) => {
 
     return (
-        <a href="/">
+        <a href="/" className={className}>
             <Obj data={LogoVector} type="image/svg+xml">
                 <img src={LogoVector} />
             </Obj>

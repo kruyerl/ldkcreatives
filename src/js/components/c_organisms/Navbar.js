@@ -4,7 +4,7 @@ import LogoSymbol from '../a_atoms/LogoSymbol'
 import { rgba, linearGradient } from 'polished'
 
 const MainNav = styled.nav`
-    padding:  ${props => props.theme.baseSize * 1};
+    padding:  ${props => props.theme.baseSize * 2};
 
     display: flex;
     flex-direction: row;

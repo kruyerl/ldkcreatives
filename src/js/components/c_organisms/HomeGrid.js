@@ -17,8 +17,8 @@ const Container = styled.section`
         "caseStudy2 caseStudy1"
         "caseStudy2 capabilities"
         "caseStudy3 blog"
-        "engagement blog"
-        "engagement cta";
+        "faq blog"
+        "faq cta";
     @media (max-width: ${props => props.theme.screens.tablet}) {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(8, 1fr);
@@ -29,7 +29,7 @@ const Container = styled.section`
             "capabilities"
             "caseStudy3"
             "blog"
-            "engagement"
+            "faq"
             "cta";
   }
 `
@@ -64,7 +64,7 @@ function HomeGrid() {
 
 
             </GridBoxItem>
-            <GridBoxItem area="engagement" color="red"><h1>Engagement</h1>
+            <GridBoxItem area="faq" color="red"><h1>FAQs</h1>
                 <Anchor white href="#">Find out how we do it</Anchor></GridBoxItem>
             <GridBoxItem area="cta" color="yellow"><h1>Call to Action</h1></GridBoxItem>
         </Container>
